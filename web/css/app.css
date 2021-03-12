@@ -1,0 +1,265 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+label {
+    font-weight: bolder;
+}
+
+
+.footer {
+  background-color: firebrick;
+  color: whitesmoke;
+  text-align: center;
+  width: 100vw;
+  position: fixed;
+  bottom: 0;
+  padding: 0;
+  }
+  .qsmv-text{
+      color: firebrick;
+      background-color: ivory;
+      height: 100vh;
+  }
+  .qsmv-text > ul > li {
+      list-style: none;
+  }
+  .container{
+      color: firebrick;
+      background-color: ivory;      
+  }
+  .indice{
+     color: firebrick;
+     background-color: ivory; 
+/*     padding-bottom: 33vh;*/
+     display: flex;
+     flex-flow: column nowrap;
+     height: 35vh;
+     padding: 10px;
+     text-align: center;
+  }
+  .indice > ul > li {
+     list-style: none;
+  }
+  .btn-primary {
+     color: whitesmoke;
+     background-color: firebrick; 
+  }
+  .btn-success {
+     color: whitesmoke;
+     background-color: firebrick;  
+  }
+   #texto {
+      text-align: center;
+  }
+  .jumbotron {
+    background-color: firebrick;
+    color: whitesmoke;
+    padding: 100px 25px;
+  }
+  .container-fluid {
+    padding: 60px 50px;
+  }
+  .bg-grey {
+    background-color: #f6f6f6;
+  }
+  .logo-small {
+    color: whitesmoke;
+    font-size: 50px;
+  }
+  .logo {
+    color: #f4511e;
+    font-size: 200px;
+  }
+  @media screen and (max-width: 768px) {
+    .col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+    }
+  }
+  .gallerycontainer{
+/*    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    display: block;
+    position: absolute;
+    left: 15% ;*/
+}
+
+.gallerycontainer-align{
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    display: block;
+    
+}
+
+.thumbnail img{
+border: 1px solid white;
+margin: 0 5px 5px 0;
+}
+
+.thumbnail:hover{
+background-color: transparent;
+}
+
+.thumbnail:hover img{
+border: 1px solid blue;
+}
+
+.thumbnail span{ /*CSS for enlarged image*/
+position: absolute;
+background-color: lightyellow;
+padding: 5px;
+left: -1000px;
+border: 1px dashed gray;
+visibility: hidden;
+color: black;
+text-decoration: none;
+}
+
+.thumbnail span img{ /*CSS for enlarged image*/
+border-width: 0;
+padding: 2px;
+}
+
+.thumbnail:hover span{ /*CSS for enlarged image*/
+visibility: visible;
+top: 0;
+left: 300px; /*position where enlarged image should offset horizontally */
+z-index: 50;
+}
+.h-ron {
+  height: 480px;  
+}
+.text-green-white {
+    color: whitesmoke;
+    background-color: greenyellow; 
+}
+.img-rounded {
+    height: 60px;
+    width: 60px;
+    border-radius: 30%;
+}
+a, a:hover {
+    text-decoration: none;
+    color: lightsalmon;
+}
+a {
+    color: firebrick;
+}
+.checkbox > a:link,.checkbox > a:active{
+    text-decoration: none;
+    color: white;
+}
+.insta {
+    background: rgb(63,94,251);
+    background: linear-gradient(165deg, rgba(63,94,251,1) 0%, rgba(104,88,157,1) 28%, rgba(165,81,173,1) 54%, rgba(219,43,79,1) 100%);
+    color: white;
+}
+
+
+/*maps*/
+
+.map-container{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.map-container iframe{
+left:0;
+top:0;
+height:70%;
+width:60%;
+position:absolute;
+}
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+/*Portifolio
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+ Center website 
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 10px -16px;
+}
+
+ Add padding BETWEEN each column 
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+ Create three equal columns that floats next to each other 
+.column {
+  float: left;
+  width: 33.33%;
+  display: none;  Hide all elements by default 
+}
+
+ Clear floats after rows  
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+ Content 
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+ The "show" class is added to the filtered elements 
+.show {
+  display: block;
+}
+
+ Style the buttons 
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}*/
+
+
+
